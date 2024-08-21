@@ -1,0 +1,49 @@
+
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                    </head>
+                    <body>
+                    <div><pre class="mermaid">
+                    %%{
+                    init: {
+                    "flowchart":{
+                    "useMaxWidth": 0
+                    }
+                    }
+                    }%%
+                    graph TB
+                    classDef Datatype fill:#9c6,stroke:#9c6;
+                    
+                    
+                    
+                  
+                    subgraph nd93fba049621484cbf52ee572db81598b2 [Restriction = N R]
+nd93fba049621484cbf52ee572db81598b2http://data.europa.eu/a4g/ontology#concernsContractAmendment[concernsContractAmendment] -- exactly --> 1
+end
+
+subgraph nd93fba049621484cbf52ee572db81598b1 [Restriction ≤ N R]
+nd93fba049621484cbf52ee572db81598b1http://data.europa.eu/a4g/ontology#hasModificationReasonDescription[hasModificationReasonDescription] -- max --> 1
+end
+
+subgraph nd93fba049621484cbf52ee572db81598b3 [Restriction ≤ N R]
+nd93fba049621484cbf52ee572db81598b3http://data.europa.eu/a4g/ontology#hasModificationDescription[hasModificationDescription] -- max --> 1
+end
+
+http://data.europa.eu/a4g/ontology#ContractModificationInformation((ContractModificationInformation)) -- subClassOf --> nd93fba049621484cbf52ee572db81598b3
+
+http://data.europa.eu/a4g/ontology#ContractModificationInformation((ContractModificationInformation)) -- subClassOf --> nd93fba049621484cbf52ee572db81598b1
+
+http://data.europa.eu/a4g/ontology#ContractModificationInformation((ContractModificationInformation)) -- subClassOf --> nd93fba049621484cbf52ee572db81598b2
+
+                    
+                    
+                    </pre>
+                    <script type="module">
+                      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+                      mermaid.initialize({ startOnLoad: true, maxTextSize : 99999999 });
+                    </script>
+                    </div>
+                    </body>
+                    </html>
+                    

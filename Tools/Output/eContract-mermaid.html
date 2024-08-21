@@ -1,0 +1,44 @@
+
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                    </head>
+                    <body>
+                    <div><pre class="mermaid">
+                    %%{
+                    init: {
+                    "flowchart":{
+                    "useMaxWidth": 0
+                    }
+                    }
+                    }%%
+                    graph TB
+                    classDef Datatype fill:#9c6,stroke:#9c6;
+                    
+                    
+                    
+                  
+                    http://data.europa.eu/a4g/ontology#ContractAmendment((Contract amendment)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Contract
+
+http://data.europa.eu/a4g/ontology#ContractModificationInformation((Contract modification information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://data.europa.eu/a4g/ontology#Deliverable((Deliverable)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Item
+
+http://www.w3.org/2001/XMLSchema#dateTime[Date time]:::Datatype
+http://www.w3.org/2001/XMLSchema#date[Date]:::Datatype
+http://www.w3.org/2001/XMLSchema#boolean[Boolean]:::Datatype
+http://www.w3.org/2001/XMLSchema#integer[Integer]:::Datatype
+http://www.w3.org/2001/XMLSchema#decimal[Decimal]:::Datatype
+http://www.w3.org/2001/XMLSchema#anyURI[Any u r i]:::Datatype
+http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral[Plain literal]:::Datatype
+                    
+                    
+                    </pre>
+                    <script type="module">
+                      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+                      mermaid.initialize({ startOnLoad: true, maxTextSize : 99999999 });
+                    </script>
+                    </div>
+                    </body>
+                    </html>
+                    

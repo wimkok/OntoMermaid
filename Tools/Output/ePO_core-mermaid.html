@@ -1,0 +1,344 @@
+
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                    </head>
+                    <body>
+                    <div><pre class="mermaid">
+                    %%{
+                    init: {
+                    "flowchart":{
+                    "useMaxWidth": 0
+                    }
+                    }
+                    }%%
+                    graph TB
+                    classDef Datatype fill:#9c6,stroke:#9c6;
+                    
+                    
+                    
+                  
+                    http://data.europa.eu/a4g/ontology#Purpose((Purpose))
+http://data.europa.eu/a4g/ontology#Document((Document))
+http://data.europa.eu/a4g/ontology#VehicleInformation((Vehicle information))
+http://www.w3.org/ns/locn#Address((Address))
+http://www.w3.org/ns/locn#Geometry((Geometry))
+http://data.europa.eu/m8g/Evidence((Evidence))
+http://data.europa.eu/a4g/ontology#Term((Term))
+http://data.europa.eu/m8g/Channel((Channel))
+http://data.europa.eu/a4g/ontology#Period((Period))
+http://data.europa.eu/a4g/ontology#Quantity((Quantity))
+http://xmlns.com/foaf/0.1/Agent((Agent))
+http://data.europa.eu/a4g/ontology#ProcurementElement((Procurement element))
+http://data.europa.eu/a4g/ontology#AgentInRole((Agent in role))
+http://data.europa.eu/a4g/ontology#StrategicProcurement((Strategic procurement))
+http://data.europa.eu/a4g/ontology#MonetaryValue((Monetary value))
+http://data.europa.eu/a4g/ontology#LotGroup((Lot group))
+http://data.europa.eu/a4g/ontology#Fund((Fund))
+http://data.europa.eu/a4g/ontology#ContextDescription((Context description))
+http://data.europa.eu/a4g/ontology#SelectedCandidateList((Selected candidate list))
+http://data.europa.eu/m8g/Requirement((Requirement))
+http://data.europa.eu/a4g/ontology#TenderGroup((Tender group))
+http://purl.org/dc/terms/Location((Location))
+http://data.europa.eu/a4g/ontology#EmploymentInformationProvider((Employment information provider))
+http://data.europa.eu/a4g/ontology#EnvironmentalProtectionInformationProvider((Environmental protection information provider))
+http://data.europa.eu/a4g/ontology#ContextualProjection((Contextual projection))
+http://www.w3.org/ns/adms#Identifier((Identifier))
+http://data.europa.eu/a4g/ontology#ElectronicSignature((Electronic signature))
+http://data.europa.eu/a4g/ontology#TechnicalSpecification((Technical specification))
+http://www.w3.org/2006/time#Duration((Duration))
+http://data.europa.eu/m8g/ContactPoint((Contact point))
+http://data.europa.eu/a4g/ontology#Prize((Prize))
+http://data.europa.eu/m8g/InformationConcept((Information concept))
+http://data.europa.eu/a4g/ontology#Project((Project))
+http://data.europa.eu/a4g/ontology#TaxInformationProvider((Tax information provider))
+http://data.europa.eu/a4g/ontology#Certifier((Certifier))
+http://data.europa.eu/a4g/ontology#Technique((Technique))
+http://data.europa.eu/a4g/ontology#Offer((Offer)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/m8g/Criterion((Criterion)) -- subClassOf --> http://data.europa.eu/m8g/Requirement
+
+http://data.europa.eu/m8g/PublicOrganisation((Public organisation)) -- subClassOf --> http://www.w3.org/ns/org#Organization
+
+http://data.europa.eu/a4g/ontology#OtherEntity((Other entity)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#ReviewDecision((Review decision)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ReviewObject
+
+http://data.europa.eu/a4g/ontology#Reviewer((Reviewer)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#SubcontractingEstimate((Subcontracting estimate)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Estimate
+
+http://data.europa.eu/a4g/ontology#GreenProcurement((Green procurement)) -- subClassOf --> http://data.europa.eu/a4g/ontology#StrategicProcurement
+
+http://data.europa.eu/a4g/ontology#Procedure((Procedure)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementObject
+
+http://data.europa.eu/a4g/ontology#LotSpecificTerm((Lot specific term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Term
+
+http://data.europa.eu/a4g/ontology#CatalogueProvider((Catalogue provider)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#ProcurementCriterion((Procurement criterion)) -- subClassOf --> http://data.europa.eu/m8g/Criterion
+
+http://data.europa.eu/a4g/ontology#SpecificDuration((Specific duration)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Duration
+
+http://data.europa.eu/a4g/ontology#AcquiringParty((Acquiring party)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AgentInRole
+
+http://data.europa.eu/a4g/ontology#Contract((Contract)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#Duration((Duration)) -- subClassOf --> http://www.w3.org/2006/time#Duration
+
+http://data.europa.eu/a4g/ontology#ConcessionEstimate((Concession estimate)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Estimate
+
+http://data.europa.eu/a4g/ontology#OfferIssuer((Offer issuer)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#SocialProcurement((Social procurement)) -- subClassOf --> http://data.europa.eu/a4g/ontology#StrategicProcurement
+
+http://data.europa.eu/a4g/ontology#ReviewTerm((Review term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm
+
+http://data.europa.eu/a4g/ontology#ReviewTerm((Review term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#BudgetProvider((Budget provider)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#ProfessionalSuitabilitySummary((Professional suitability summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#SelectionCriteriaSummary
+
+http://data.europa.eu/a4g/ontology#JuryMember((Jury member)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#ProcurementServiceProvider((Procurement service provider)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#PlannedProcurementPart((Planned procurement part)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementElement
+
+http://data.europa.eu/a4g/ontology#DirectContract((Direct contract)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Contract
+
+http://data.europa.eu/a4g/ontology#CentralPurchasingBody((Central purchasing body)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Buyer
+
+http://data.europa.eu/a4g/ontology#SubmissionTerm((Submission term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#SubmissionTerm((Submission term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm
+
+http://data.europa.eu/a4g/ontology#ExclusionGround((Exclusion ground)) -- subClassOf --> http://data.europa.eu/a4g/ontology#QualificationCriterion
+
+http://data.europa.eu/a4g/ontology#MultipleStageProcedureTerm((Multiple stage procedure term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#AwardCriterion((Award criterion)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementCriterion
+
+http://data.europa.eu/a4g/ontology#ChangeInformation((Change information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://data.europa.eu/a4g/ontology#RequestForClarification((Request for clarification)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#DynamicPurchaseSystemTechnique((Dynamic purchase system technique)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Technique
+
+http://data.europa.eu/a4g/ontology#ParticipationCondition((Participation condition)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementCriterion
+
+http://data.europa.eu/a4g/ontology#AdHocChannel((Ad hoc channel)) -- subClassOf --> http://data.europa.eu/m8g/Channel
+
+http://data.europa.eu/a4g/ontology#SubcontractTerm((Subcontract term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContractSpecificTerm
+
+http://data.europa.eu/m8g/Constraint((Constraint)) -- subClassOf --> http://data.europa.eu/m8g/Requirement
+
+http://data.europa.eu/a4g/ontology#AccessTerm((Access term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#AccessTerm((Access term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm
+
+http://data.europa.eu/a4g/ontology#ProcurementDocument((Procurement document)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#Winner((Winner)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#TenderReceiver((Tender receiver)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#ReviewIrregularitySummary((Review irregularity summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#StatisticalInformation
+
+http://data.europa.eu/a4g/ontology#ContractSpecificTerm((Contract specific term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Term
+
+http://data.europa.eu/a4g/ontology#ProcurementCriteriaSummary((Procurement criteria summary)) -- subClassOf --> http://data.europa.eu/m8g/Requirement
+
+http://data.europa.eu/a4g/ontology#SelectionCriterion((Selection criterion)) -- subClassOf --> http://data.europa.eu/a4g/ontology#QualificationCriterion
+
+http://data.europa.eu/a4g/ontology#OfflineAccessProvider((Offline access provider)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#Business((Business)) -- subClassOf --> http://www.w3.org/ns/org#Organization
+
+http://data.europa.eu/a4g/ontology#SelectionEvaluationTerm((Selection evaluation term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#EvaluationTerm
+
+http://data.europa.eu/a4g/ontology#LotAwardOutcome((Lot award outcome)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AwardOutcome
+
+http://data.europa.eu/a4g/ontology#ParticipationRequestProcessor((Participation request processor)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#Notice((Notice)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#ProcurementProcedureInformationProvider((Procurement procedure information provider)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#ProcessPlanningTerm((Process planning term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Term
+
+http://data.europa.eu/a4g/ontology#TechnicalAbilitySummary((Technical ability summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#SelectionCriteriaSummary
+
+http://data.europa.eu/a4g/ontology#FrameworkAgreementTechnique((Framework agreement technique)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Technique
+
+http://data.europa.eu/a4g/ontology#AcquiringCentralPurchasingBody((Acquiring central purchasing body)) -- subClassOf --> http://data.europa.eu/a4g/ontology#CentralPurchasingBody
+
+http://data.europa.eu/a4g/ontology#LotGroupAwardInformation((Lot group award information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://data.europa.eu/a4g/ontology#DirectAwardTerm((Direct award term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm
+
+http://data.europa.eu/a4g/ontology#ParticipationRequestReceiver((Participation request receiver)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#AuxiliaryParty((Auxiliary party)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AgentInRole
+
+http://data.europa.eu/a4g/ontology#Certificate((Certificate)) -- subClassOf --> http://data.europa.eu/m8g/Evidence
+
+http://data.europa.eu/a4g/ontology#CatalogueReceiver((Catalogue receiver)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#QualificationCriterion((Qualification criterion)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementCriterion
+
+http://data.europa.eu/a4g/ontology#IndefiniteDuration((Indefinite duration)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Duration
+
+http://data.europa.eu/a4g/ontology#LeadBuyer((Lead buyer)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Buyer
+
+http://data.europa.eu/a4g/ontology#Buyer((Buyer)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#ExpressionOfInterest((Expression of interest)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#OfferingParty((Offering party)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AgentInRole
+
+http://data.europa.eu/a4g/ontology#PurchaseContract((Purchase contract)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Contract
+
+http://data.europa.eu/a4g/ontology#AwardEvaluationTerm((Award evaluation term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#EvaluationTerm
+
+http://data.europa.eu/a4g/ontology#ReviewRequest((Review request)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ReviewObject
+
+http://data.europa.eu/a4g/ontology#OpeningTerm((Opening term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm
+
+http://data.europa.eu/a4g/ontology#OpeningTerm((Opening term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#ContractTerm((Contract term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContractSpecificTerm
+
+http://data.europa.eu/a4g/ontology#OrganisationGroup((Organisation group)) -- subClassOf --> http://www.w3.org/ns/org#Organization
+
+http://data.europa.eu/a4g/ontology#System((System)) -- subClassOf --> http://xmlns.com/foaf/0.1/Agent
+
+http://data.europa.eu/m8g/InformationRequirement((Information requirement)) -- subClassOf --> http://data.europa.eu/m8g/Requirement
+
+http://data.europa.eu/a4g/ontology#PaymentExecutor((Payment executor)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#SubmissionStatisticalInformation((Submission statistical information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#StatisticalInformation
+
+http://data.europa.eu/a4g/ontology#CertificationLabel((Certification label)) -- subClassOf --> http://data.europa.eu/m8g/InformationConcept
+
+http://data.europa.eu/a4g/ontology#OriginatorRequest((Originator request)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://www.w3.org/ns/person#Person((Person)) -- subClassOf --> http://xmlns.com/foaf/0.1/Person
+
+http://data.europa.eu/a4g/ontology#QualificationCriteriaSummary((Qualification criteria summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementCriteriaSummary
+
+http://xmlns.com/foaf/0.1/Person((Person)) -- subClassOf --> http://xmlns.com/foaf/0.1/Agent
+
+http://data.europa.eu/a4g/ontology#EconomicStandingSummary((Economic standing summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#SelectionCriteriaSummary
+
+http://data.europa.eu/a4g/ontology#FrameworkAgreementTerm((Framework agreement term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#FrameworkAgreementTerm((Framework agreement term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm
+
+http://data.europa.eu/a4g/ontology#FrameworkAgreementTerm((Framework agreement term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContractSpecificTerm
+
+http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm((Procedure specific term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Term
+
+http://data.europa.eu/a4g/ontology#ParticipationRequestTerm((Participation request term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#Subcontractor((Subcontractor)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#ExclusionGroundsSummary((Exclusion grounds summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#QualificationCriteriaSummary
+
+http://data.europa.eu/a4g/ontology#ReviewObject((Review object)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#MiniCompetitionAwardOutcome((Mini competition award outcome)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AwardOutcome
+
+http://data.europa.eu/a4g/ontology#TenderProcessor((Tender processor)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#ParticipationConditionsSummary((Participation conditions summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementCriteriaSummary
+
+http://data.europa.eu/a4g/ontology#NonDisclosureAgreementTerm((Non disclosure agreement term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#ProcurementObject((Procurement object)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementElement
+
+http://data.europa.eu/a4g/ontology#Tender((Tender)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#NonPublishedInformation((Non published information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://data.europa.eu/a4g/ontology#AwardDecision((Award decision)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#RequestForParticipation((Request for participation)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Document
+
+http://data.europa.eu/a4g/ontology#StatisticalInformation((Statistical information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://data.europa.eu/a4g/ontology#ReviewRequester((Review requester)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#Candidate((Candidate)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#AwardOutcome((Award outcome)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextualProjection
+
+http://data.europa.eu/a4g/ontology#InnovativeProcurement((Innovative procurement)) -- subClassOf --> http://data.europa.eu/a4g/ontology#StrategicProcurement
+
+http://data.europa.eu/a4g/ontology#SelectionCriteriaSummary((Selection criteria summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#QualificationCriteriaSummary
+
+http://data.europa.eu/a4g/ontology#FrameworkAgreement((Framework agreement)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Contract
+
+http://data.europa.eu/a4g/ontology#Awarder((Awarder)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#Tenderer((Tenderer)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#DesignContestRegimeTerm((Design contest regime term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#DesignContestRegimeTerm((Design contest regime term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm
+
+http://data.europa.eu/a4g/ontology#EvaluationTerm((Evaluation term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://data.europa.eu/a4g/ontology#NoticeAwardInformation((Notice award information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://data.europa.eu/a4g/ontology#Lot((Lot)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementObject
+
+http://data.europa.eu/a4g/ontology#ReviewRequestSummary((Review request summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#StatisticalInformation
+
+http://data.europa.eu/a4g/ontology#SecurityClearanceTerm((Security clearance term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#LotSpecificTerm
+
+http://www.w3.org/ns/org#Organization((Organization)) -- subClassOf --> http://xmlns.com/foaf/0.1/Agent
+
+http://data.europa.eu/a4g/ontology#Estimate((Estimate)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://data.europa.eu/a4g/ontology#ConcessionContract((Concession contract)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Contract
+
+http://data.europa.eu/a4g/ontology#Mediator((Mediator)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#AwardCriteriaSummary((Award criteria summary)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcurementCriteriaSummary
+
+http://data.europa.eu/a4g/ontology#EAuctionTechnique((E auction technique)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Technique
+
+http://data.europa.eu/a4g/ontology#TenderAwardOutcome((Tender award outcome)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextualProjection
+
+http://data.europa.eu/a4g/ontology#ReviewProcedureInformationProvider((Review procedure information provider)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#ContractLotCompletionInformation((Contract lot completion information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://data.europa.eu/a4g/ontology#Contractor((Contractor)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#AwardingCentralPurchasingBody((Awarding central purchasing body)) -- subClassOf --> http://data.europa.eu/a4g/ontology#CentralPurchasingBody
+
+http://data.europa.eu/a4g/ontology#ProcedureTerm((Procedure term)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ProcedureSpecificTerm
+
+http://data.europa.eu/a4g/ontology#ProcurementProcessInformation((Procurement process information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#ContextDescription
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral[Plain literal]:::Datatype
+http://www.w3.org/2001/XMLSchema#date[Date]:::Datatype
+http://www.w3.org/2001/XMLSchema#boolean[Boolean]:::Datatype
+http://www.w3.org/2001/XMLSchema#anyURI[Any u r i]:::Datatype
+http://www.w3.org/2001/XMLSchema#integer[Integer]:::Datatype
+http://www.w3.org/2001/XMLSchema#decimal[Decimal]:::Datatype
+http://www.w3.org/2001/XMLSchema#dateTime[Date time]:::Datatype
+                    
+                    
+                    </pre>
+                    <script type="module">
+                      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+                      mermaid.initialize({ startOnLoad: true, maxTextSize : 99999999 });
+                    </script>
+                    </div>
+                    </body>
+                    </html>
+                    

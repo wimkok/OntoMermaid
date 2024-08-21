@@ -1,0 +1,67 @@
+
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                    </head>
+                    <body>
+                    <div><pre class="mermaid">
+                    %%{
+                    init: {
+                    "flowchart":{
+                    "useMaxWidth": 0
+                    }
+                    }
+                    }%%
+                    graph TB
+                    classDef Datatype fill:#9c6,stroke:#9c6;
+                    
+                    
+                    
+                  
+                    http://data.europa.eu/a4g/ontology#DeliveryAgreement((Delivery agreement))
+http://data.europa.eu/a4g/ontology#Seller((Seller)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OfferingParty
+
+http://data.europa.eu/a4g/ontology#TaxInformation((Tax information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#InformationHub
+
+http://data.europa.eu/a4g/ontology#OrderResponse((Order response)) -- subClassOf --> http://data.europa.eu/a4g/ontology#PostAwardDocument
+
+http://data.europa.eu/a4g/ontology#AllowanceInformation((Allowance information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AllowanceChargeInformation
+
+http://data.europa.eu/a4g/ontology#Originator((Originator)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#Order((Order)) -- subClassOf --> http://data.europa.eu/a4g/ontology#PostAwardDocument
+
+http://data.europa.eu/a4g/ontology#AllowanceChargeInformation((Allowance charge information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#InformationHub
+
+http://data.europa.eu/a4g/ontology#OrderLine((Order line)) -- subClassOf --> http://data.europa.eu/a4g/ontology#Line
+
+http://data.europa.eu/a4g/ontology#DeliveryInformation((Delivery information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#InformationHub
+
+http://data.europa.eu/a4g/ontology#Consignee((Consignee)) -- subClassOf --> http://data.europa.eu/a4g/ontology#AcquiringParty
+
+http://data.europa.eu/a4g/ontology#OrderResponseInformation((Order response information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#InformationHub
+
+http://data.europa.eu/a4g/ontology#ContractInformation((Contract information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#InformationHub
+
+http://data.europa.eu/a4g/ontology#OriginatorInformation((Originator information)) -- subClassOf --> http://data.europa.eu/a4g/ontology#InformationHub
+
+http://data.europa.eu/a4g/ontology#OrderResponseLine((Order response line)) -- subClassOf --> http://data.europa.eu/a4g/ontology#OrderLine
+
+http://www.w3.org/2001/XMLSchema#date[Date]:::Datatype
+http://www.w3.org/2001/XMLSchema#decimal[Decimal]:::Datatype
+http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral[Plain literal]:::Datatype
+http://www.w3.org/2001/XMLSchema#integer[Integer]:::Datatype
+http://www.w3.org/2001/XMLSchema#dateTime[Date time]:::Datatype
+http://www.w3.org/2001/XMLSchema#boolean[Boolean]:::Datatype
+http://www.w3.org/2001/XMLSchema#anyURI[Any u r i]:::Datatype
+                    
+                    
+                    </pre>
+                    <script type="module">
+                      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+                      mermaid.initialize({ startOnLoad: true, maxTextSize : 99999999 });
+                    </script>
+                    </div>
+                    </body>
+                    </html>
+                    
