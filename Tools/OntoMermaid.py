@@ -26,7 +26,7 @@ from rdflib import Namespace
 current_dir = os.getcwd()
 
 # Set the path to the desired standard directory. 
-directory_path = os.path.abspath(os.path.join(current_dir, '..', '..', '..'))
+directory_path = os.path.abspath(os.path.join(current_dir, '..'))
 
 # namespace declaration
 mermaid = Namespace("https://data.rijksfinancien.nl/mermaid/model/def/")

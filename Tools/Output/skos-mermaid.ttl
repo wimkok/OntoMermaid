@@ -93,13 +93,13 @@ skos:member a rdf:Property,
     rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
     rdfs:range [ a owl:Class ;
             owl:unionOf ( skos:Concept skos:Collection ) ;
-            mermaid:label """subgraph n2fd4aed3465e4a0c817520fb8ac3cfa5b1[Union C &cup; D]
-n2fd4aed3465e4a0c817520fb8ac3cfa5b1http://www.w3.org/2004/02/skos/core#Concept((Concept)) -- or --- n2fd4aed3465e4a0c817520fb8ac3cfa5b1http://www.w3.org/2004/02/skos/core#Collection((Collection))
+            mermaid:label """subgraph n56488e50dacb461d85e72ff26d372dc3b1[Union C &cup; D]
+n56488e50dacb461d85e72ff26d372dc3b1http://www.w3.org/2004/02/skos/core#Concept((Concept)) -- or --- n56488e50dacb461d85e72ff26d372dc3b1http://www.w3.org/2004/02/skos/core#Collection((Collection))
 end
 """ ;
             mermaid:syntax "OR" ] ;
     skos:definition "Relates a collection to one of its members."@en ;
-    mermaid:label "http://www.w3.org/2004/02/skos/core#Collection -- has member --> n2fd4aed3465e4a0c817520fb8ac3cfa5b1" ;
+    mermaid:label "http://www.w3.org/2004/02/skos/core#Collection -- has member --> n56488e50dacb461d85e72ff26d372dc3b1" ;
     mermaid:syntax "OBJECTPROPERTY",
         "RDF_PROPERTY" .
 

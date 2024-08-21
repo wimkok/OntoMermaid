@@ -107,18 +107,18 @@
             owl:intersectionOf ( :Organization [ a owl:Restriction ;
                         owl:allValuesFrom :Organization ;
                         owl:onProperty :hasMember ;
-                        mermaid:label """subgraph n54c7aedfdd9f4475bf99e951e09be230b21[Restriction &forall; R C]
-n54c7aedfdd9f4475bf99e951e09be230b21thing((thing)) -- has member only --> n54c7aedfdd9f4475bf99e951e09be230b21http://www.w3.org/ns/org#Organization((Organization))
+                        mermaid:label """subgraph n88cd4691c5124b01ab0d36437bc7d943b21[Restriction &forall; R C]
+n88cd4691c5124b01ab0d36437bc7d943b21thing((thing)) -- has member only --> n88cd4691c5124b01ab0d36437bc7d943b21http://www.w3.org/ns/org#Organization((Organization))
 
 end
 """ ;
                         mermaid:syntax "ONLY" ] ) ;
-            mermaid:label """subgraph n54c7aedfdd9f4475bf99e951e09be230b20[Intersection C &cap; D]
-n54c7aedfdd9f4475bf99e951e09be230b20http://www.w3.org/ns/org#Organization((Organization)) -- and --- n54c7aedfdd9f4475bf99e951e09be230b21
+            mermaid:label """subgraph n88cd4691c5124b01ab0d36437bc7d943b20[Intersection C &cap; D]
+n88cd4691c5124b01ab0d36437bc7d943b20http://www.w3.org/ns/org#Organization((Organization)) -- and --- n88cd4691c5124b01ab0d36437bc7d943b21
 end
 """ ;
             mermaid:syntax "AND" ] ;
-    mermaid:label """http://www.w3.org/ns/org#OrganizationalCollaboration((Endeavour)) -- equivalentTo --> n54c7aedfdd9f4475bf99e951e09be230b20
+    mermaid:label """http://www.w3.org/ns/org#OrganizationalCollaboration((Endeavour)) -- equivalentTo --> n88cd4691c5124b01ab0d36437bc7d943b20
 """,
         """http://www.w3.org/ns/org#OrganizationalCollaboration((Endeavour)) -- subClassOf --> http://www.w3.org/ns/org#Organization
 """ ;
@@ -369,7 +369,7 @@ gr:BusinessEntity rdfs:subClassOf :FormalOrganization ;
     rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
     rdfs:range xsd:string ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- location --> http://www.w3.org/2001/XMLSchema#string",
-        "http://xmlns.com/foaf/0.1/Person -- location --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- location --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -473,20 +473,20 @@ gr:BusinessEntity rdfs:subClassOf :FormalOrganization ;
         "çµ„ç¹”å›³ã§æã‹ã‚Œã‚‹ã‹ã‚‚ã—ã‚Œãªã„ã‚ˆã†ãªä¸Šä¸‹é–¢ä¿‚ã‚’ç¤ºã—ã¾ã™ã€‚ã‚¨ãƒ¼ã‚¸ã‚§ãƒ³ãƒˆé–“ã¾ãŸã¯ã‚¨ãƒ¼ã‚¸ã‚§ãƒ³ãƒˆãŒå°±ãã“ã¨ãŒã§ãã‚‹ãƒã‚¹ãƒˆé–“ã®ä¸Šä¸‹é–¢ä¿‚ã‚’ç›´æŽ¥çš„ã«ç¤ºã™ãŸã‚ã«ä½¿ç”¨ã§ãã¾ã™ã€‚"@ja ;
     rdfs:domain [ a owl:Class ;
             owl:unionOf ( foaf:Agent :Post ) ;
-            mermaid:label """subgraph n54c7aedfdd9f4475bf99e951e09be230b11[Union C &cup; D]
-n54c7aedfdd9f4475bf99e951e09be230b11http://xmlns.com/foaf/0.1/Agent((Agent)) -- or --- n54c7aedfdd9f4475bf99e951e09be230b11http://www.w3.org/ns/org#Post((Post))
+            mermaid:label """subgraph n88cd4691c5124b01ab0d36437bc7d943b11[Union C &cup; D]
+n88cd4691c5124b01ab0d36437bc7d943b11http://xmlns.com/foaf/0.1/Agent((Agent)) -- or --- n88cd4691c5124b01ab0d36437bc7d943b11http://www.w3.org/ns/org#Post((Post))
 end
 """ ;
             mermaid:syntax "OR" ] ;
     rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
     rdfs:range [ a owl:Class ;
             owl:unionOf ( foaf:Agent :Post ) ;
-            mermaid:label """subgraph n54c7aedfdd9f4475bf99e951e09be230b14[Union C &cup; D]
-n54c7aedfdd9f4475bf99e951e09be230b14http://xmlns.com/foaf/0.1/Agent((Agent)) -- or --- n54c7aedfdd9f4475bf99e951e09be230b14http://www.w3.org/ns/org#Post((Post))
+            mermaid:label """subgraph n88cd4691c5124b01ab0d36437bc7d943b14[Union C &cup; D]
+n88cd4691c5124b01ab0d36437bc7d943b14http://xmlns.com/foaf/0.1/Agent((Agent)) -- or --- n88cd4691c5124b01ab0d36437bc7d943b14http://www.w3.org/ns/org#Post((Post))
 end
 """ ;
             mermaid:syntax "OR" ] ;
-    mermaid:label "n54c7aedfdd9f4475bf99e951e09be230b11 -- reports to --> n54c7aedfdd9f4475bf99e951e09be230b14" ;
+    mermaid:label "n88cd4691c5124b01ab0d36437bc7d943b11 -- reports to --> n88cd4691c5124b01ab0d36437bc7d943b14" ;
     mermaid:syntax "OBJECTPROPERTY",
         "RDF_PROPERTY" .
 
@@ -503,14 +503,14 @@ end
         "ã‚¨ãƒ¼ã‚¸ã‚§ãƒ³ãƒˆãŒçµ„ç¹”ã¨ã®æ§‹æˆå“¡é–¢ä¿‚ã«ãŠã„ã¦æ‹…ã†å½¹å‰²ã‚’ç¤ºã—ã¾ã™ã€‚ãƒã‚¹ãƒˆã®ä¿æŒè€…ãŒæ‹…ã†å½¹å‰²ã‚’ç¤ºã™ãŸã‚ã«org:Postã§ç”¨ã„ã‚‹ã“ã¨ã‚‚ã§ãã¾ã™ã€‚"@ja ;
     rdfs:domain [ a owl:Class ;
             owl:unionOf ( :Membership :Post ) ;
-            mermaid:label """subgraph n54c7aedfdd9f4475bf99e951e09be230b17[Union C &cup; D]
-n54c7aedfdd9f4475bf99e951e09be230b17http://www.w3.org/ns/org#Membership((Membership)) -- or --- n54c7aedfdd9f4475bf99e951e09be230b17http://www.w3.org/ns/org#Post((Post))
+            mermaid:label """subgraph n88cd4691c5124b01ab0d36437bc7d943b17[Union C &cup; D]
+n88cd4691c5124b01ab0d36437bc7d943b17http://www.w3.org/ns/org#Membership((Membership)) -- or --- n88cd4691c5124b01ab0d36437bc7d943b17http://www.w3.org/ns/org#Post((Post))
 end
 """ ;
             mermaid:syntax "OR" ] ;
     rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
     rdfs:range :Role ;
-    mermaid:label "n54c7aedfdd9f4475bf99e951e09be230b17 -- role --> http://www.w3.org/ns/org#Role" ;
+    mermaid:label "n88cd4691c5124b01ab0d36437bc7d943b17 -- role --> http://www.w3.org/ns/org#Role" ;
     mermaid:syntax "OBJECTPROPERTY",
         "RDF_PROPERTY" .
 

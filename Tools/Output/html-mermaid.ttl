@@ -932,7 +932,7 @@ html:accesskey a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has accesskey attribute"@en ;
     html:key "accesskey" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has accesskey attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has accesskey attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:action a owl:DatatypeProperty ;
@@ -941,14 +941,14 @@ html:action a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "form submission URL"@en ;
     html:key "action" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Form -- form submission URL --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Form -- form submission URL --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:alt a owl:DatatypeProperty ;
     rdfs:domain [ a owl:Class ;
             owl:unionOf ( html:Area html:Img html:Input ) ;
-            mermaid:label """subgraph n94303b116d4846bda408ecfc838f0552b20[Union C &cup; D]
-n94303b116d4846bda408ecfc838f0552b20https://data.rijksfinancien.nl/html/model/def/Area((the area element)) -- or --- n94303b116d4846bda408ecfc838f0552b20https://data.rijksfinancien.nl/html/model/def/Img((the img element)) -- or --- n94303b116d4846bda408ecfc838f0552b20https://data.rijksfinancien.nl/html/model/def/Input((the input element))
+            mermaid:label """subgraph n0e5e9f7093d94041aed09561b0d5242eb20[Union C &cup; D]
+n0e5e9f7093d94041aed09561b0d5242eb20https://data.rijksfinancien.nl/html/model/def/Area((the area element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb20https://data.rijksfinancien.nl/html/model/def/Img((the img element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb20https://data.rijksfinancien.nl/html/model/def/Input((the input element))
 end
 """ ;
             mermaid:syntax "OR" ] ;
@@ -956,7 +956,7 @@ end
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has alt"@en ;
     html:key "alt" ;
-    mermaid:label "n94303b116d4846bda408ecfc838f0552b20 -- has alt --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "n0e5e9f7093d94041aed09561b0d5242eb20 -- has alt --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:autocapitalize a owl:DatatypeProperty ;
@@ -965,7 +965,7 @@ html:autocapitalize a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has autocapitalize attribute"@en ;
     html:key "autocapitalize" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has autocapitalize attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has autocapitalize attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:autofocus a owl:DatatypeProperty ;
@@ -974,7 +974,7 @@ html:autofocus a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has autofocus attribute"@en ;
     html:key "autofocus" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has autofocus attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has autofocus attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:charset a owl:DatatypeProperty ;
@@ -983,7 +983,7 @@ html:charset a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has charset"@en ;
     html:key "charset" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Meta -- has charset --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Meta -- has charset --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:class a owl:DatatypeProperty ;
@@ -992,7 +992,7 @@ html:class a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has class"@en ;
     html:key "class" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has class --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has class --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:content a owl:DatatypeProperty ;
@@ -1001,7 +1001,7 @@ html:content a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has content"@en ;
     html:key "content" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Meta -- has content --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Meta -- has content --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:contenteditable a owl:DatatypeProperty ;
@@ -1010,7 +1010,7 @@ html:contenteditable a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has contenteditable attribute"@en ;
     html:key "contenteditable" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has contenteditable attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has contenteditable attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:dir a owl:DatatypeProperty ;
@@ -1020,7 +1020,7 @@ html:dir a owl:DatatypeProperty ;
     skos:definition "The dir attribute specifies the element's text directionality. The attribute is an enumerated attribute with the following keywords and states: (1) ltr: The contents of the element are explicitly directionally isolated left-to-right text. (2) rtl: The contents of the element are explicitly directionally isolated right-to-left text. (3) auto: The contents of the element are explicitly directionally isolated text, but the direction is to be determined programmatically using the contents of the element (as described below)."@en ;
     skos:prefLabel "has dir attribute"@en ;
     html:key "dir" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has dir attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has dir attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:draggable a owl:DatatypeProperty ;
@@ -1029,7 +1029,7 @@ html:draggable a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has draggable attribute"@en ;
     html:key "draggable" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has draggable attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has draggable attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:enterkeyhint a owl:DatatypeProperty ;
@@ -1038,7 +1038,7 @@ html:enterkeyhint a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has enterkeyhint attribute"@en ;
     html:key "enterkeyhint" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has enterkeyhint attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has enterkeyhint attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:for a owl:DatatypeProperty ;
@@ -1047,7 +1047,7 @@ html:for a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "for"@en ;
     html:key "for" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Label -- for --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Label -- for --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:hidden a owl:DatatypeProperty ;
@@ -1056,7 +1056,7 @@ html:hidden a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has hidden attribute"@en ;
     html:key "hidden" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has hidden attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has hidden attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:href a owl:DatatypeProperty ;
@@ -1065,7 +1065,7 @@ html:href a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "hyperlink reference"@en ;
     html:key "href" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/A -- hyperlink reference --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/A -- hyperlink reference --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:http-equiv a owl:DatatypeProperty ;
@@ -1074,7 +1074,7 @@ html:http-equiv a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has http-equiv"@en ;
     html:key "http-equiv" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Meta -- has http-equiv --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Meta -- has http-equiv --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:id a owl:DatatypeProperty ;
@@ -1083,7 +1083,7 @@ html:id a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has id"@en ;
     html:key "id" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has id --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has id --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:inert a owl:DatatypeProperty ;
@@ -1092,7 +1092,7 @@ html:inert a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has inert attribute"@en ;
     html:key "inert" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has inert attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has inert attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:inputmode a owl:DatatypeProperty ;
@@ -1101,7 +1101,7 @@ html:inputmode a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has inputmode attribute"@en ;
     html:key "inputmode" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has inputmode attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has inputmode attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:is a owl:DatatypeProperty ;
@@ -1110,7 +1110,7 @@ html:is a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has is attribute"@en ;
     html:key "is" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has is attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has is attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:itemid a owl:DatatypeProperty ;
@@ -1119,7 +1119,7 @@ html:itemid a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has itemid attribute"@en ;
     html:key "itemid" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemid attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemid attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:itemprop a owl:DatatypeProperty ;
@@ -1128,7 +1128,7 @@ html:itemprop a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has itemprop attribute"@en ;
     html:key "itemprop" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemprop attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemprop attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:itemref a owl:DatatypeProperty ;
@@ -1137,7 +1137,7 @@ html:itemref a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has itemref attribute"@en ;
     html:key "itemref" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemref attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemref attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:itemscope a owl:DatatypeProperty ;
@@ -1146,7 +1146,7 @@ html:itemscope a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has itemscope attribute"@en ;
     html:key "itemscope" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemscope attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemscope attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:itemtype a owl:DatatypeProperty ;
@@ -1155,7 +1155,7 @@ html:itemtype a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has itemtype attribute"@en ;
     html:key "itemtype" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemtype attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has itemtype attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:key a owl:DatatypeProperty ;
@@ -1164,7 +1164,7 @@ html:key a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Property that links the key name of a specific HTML attribute to that HTML attribute."@en ;
     skos:prefLabel "has key name"@en ;
-    mermaid:label "http://www.w3.org/2002/07/owl#DatatypeProperty -- has key name --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "http://www.w3.org/2002/07/owl#DatatypeProperty -- has key name --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:lang a owl:DatatypeProperty ;
@@ -1173,14 +1173,14 @@ html:lang a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has lang attribute"@en ;
     html:key "lang" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has lang attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has lang attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:media a owl:DatatypeProperty ;
     rdfs:domain [ a owl:Class ;
             owl:unionOf ( html:A html:Area html:Link html:Source html:StyleSheet ) ;
-            mermaid:label """subgraph n94303b116d4846bda408ecfc838f0552b4[Union C &cup; D]
-n94303b116d4846bda408ecfc838f0552b4https://data.rijksfinancien.nl/html/model/def/A((the a element)) -- or --- n94303b116d4846bda408ecfc838f0552b4https://data.rijksfinancien.nl/html/model/def/Area((the area element)) -- or --- n94303b116d4846bda408ecfc838f0552b4https://data.rijksfinancien.nl/html/model/def/Link((the link element)) -- or --- n94303b116d4846bda408ecfc838f0552b4https://data.rijksfinancien.nl/html/model/def/Source((the source element)) -- or --- n94303b116d4846bda408ecfc838f0552b4https://data.rijksfinancien.nl/html/model/def/StyleSheet((the style element))
+            mermaid:label """subgraph n0e5e9f7093d94041aed09561b0d5242eb4[Union C &cup; D]
+n0e5e9f7093d94041aed09561b0d5242eb4https://data.rijksfinancien.nl/html/model/def/A((the a element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb4https://data.rijksfinancien.nl/html/model/def/Area((the area element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb4https://data.rijksfinancien.nl/html/model/def/Link((the link element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb4https://data.rijksfinancien.nl/html/model/def/Source((the source element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb4https://data.rijksfinancien.nl/html/model/def/StyleSheet((the style element))
 end
 """ ;
             mermaid:syntax "OR" ] ;
@@ -1188,7 +1188,7 @@ end
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "media attribute"@en ;
     html:key "media" ;
-    mermaid:label "n94303b116d4846bda408ecfc838f0552b4 -- media attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "n0e5e9f7093d94041aed09561b0d5242eb4 -- media attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:name a owl:DatatypeProperty ;
@@ -1197,7 +1197,7 @@ html:name a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "name"@en ;
     html:key "name" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Input -- name --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Input -- name --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:nonce a owl:DatatypeProperty ;
@@ -1206,7 +1206,7 @@ html:nonce a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has nonce attribute"@en ;
     html:key "nonce" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has nonce attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has nonce attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:placeholder a owl:DatatypeProperty ;
@@ -1215,7 +1215,7 @@ html:placeholder a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "placeholder"@en ;
     html:key "placeholder" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Input -- placeholder --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Input -- placeholder --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:popover a owl:DatatypeProperty ;
@@ -1224,14 +1224,14 @@ html:popover a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has popover attribute"@en ;
     html:key "popover" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has popover attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has popover attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:rel a owl:DatatypeProperty ;
     rdfs:domain [ a owl:Class ;
             owl:unionOf ( html:A html:Link ) ;
-            mermaid:label """subgraph n94303b116d4846bda408ecfc838f0552b1[Union C &cup; D]
-n94303b116d4846bda408ecfc838f0552b1https://data.rijksfinancien.nl/html/model/def/A((the a element)) -- or --- n94303b116d4846bda408ecfc838f0552b1https://data.rijksfinancien.nl/html/model/def/Link((the link element))
+            mermaid:label """subgraph n0e5e9f7093d94041aed09561b0d5242eb1[Union C &cup; D]
+n0e5e9f7093d94041aed09561b0d5242eb1https://data.rijksfinancien.nl/html/model/def/A((the a element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb1https://data.rijksfinancien.nl/html/model/def/Link((the link element))
 end
 """ ;
             mermaid:syntax "OR" ] ;
@@ -1239,7 +1239,7 @@ end
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "rel attribute"@en ;
     html:key "rel" ;
-    mermaid:label "n94303b116d4846bda408ecfc838f0552b1 -- rel attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "n0e5e9f7093d94041aed09561b0d5242eb1 -- rel attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:required a owl:DatatypeProperty ;
@@ -1248,7 +1248,7 @@ html:required a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "required"@en ;
     html:key "required" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Input -- required --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Input -- required --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:resource a owl:DatatypeProperty ;
@@ -1257,7 +1257,7 @@ html:resource a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "resource"@en ;
     html:key "resource" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- resource --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- resource --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:spellcheck a owl:DatatypeProperty ;
@@ -1266,14 +1266,14 @@ html:spellcheck a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has spellcheck attribute"@en ;
     html:key "spellcheck" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has spellcheck attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has spellcheck attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:src a owl:DatatypeProperty ;
     rdfs:domain [ a owl:Class ;
             owl:unionOf ( html:Audio html:Embed html:Iframe html:Img html:Input html:Script html:Source html:Track html:Video ) ;
-            mermaid:label """subgraph n94303b116d4846bda408ecfc838f0552b10[Union C &cup; D]
-n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Audio((the audio element)) -- or --- n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Embed((the embed element)) -- or --- n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Iframe((the iframe element)) -- or --- n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Img((the img element)) -- or --- n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Input((the input element)) -- or --- n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Script((the script element)) -- or --- n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Source((the source element)) -- or --- n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Track((the track element)) -- or --- n94303b116d4846bda408ecfc838f0552b10https://data.rijksfinancien.nl/html/model/def/Video((the video element))
+            mermaid:label """subgraph n0e5e9f7093d94041aed09561b0d5242eb10[Union C &cup; D]
+n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Audio((the audio element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Embed((the embed element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Iframe((the iframe element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Img((the img element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Input((the input element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Script((the script element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Source((the source element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Track((the track element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb10https://data.rijksfinancien.nl/html/model/def/Video((the video element))
 end
 """ ;
             mermaid:syntax "OR" ] ;
@@ -1281,7 +1281,7 @@ end
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has src"@en ;
     html:key "src" ;
-    mermaid:label "n94303b116d4846bda408ecfc838f0552b10 -- has src --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "n0e5e9f7093d94041aed09561b0d5242eb10 -- has src --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:tabindex a owl:DatatypeProperty ;
@@ -1290,7 +1290,7 @@ html:tabindex a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has tabindex attribute"@en ;
     html:key "tabindex" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has tabindex attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has tabindex attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:tag a owl:DatatypeProperty ;
@@ -1300,7 +1300,7 @@ html:tag a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Property that links the tag name of a specific HTML element to that element."@en ;
     skos:prefLabel "has tag name"@en ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has tag name --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has tag name --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:template a owl:DatatypeProperty ;
@@ -1312,7 +1312,7 @@ html:template a owl:DatatypeProperty ;
     skos:scopeNote "An HTML template contains at least one {{variable}}."@en,
         "In a rendering, the template element represents nothing."@en,
         "The template contents of a template element are not children of the element itself."@en ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Template -- has template --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Template -- has template --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:title a owl:DatatypeProperty ;
@@ -1322,7 +1322,7 @@ html:title a owl:DatatypeProperty ;
     skos:definition "Property that represents advisory information for the element, such as would be appropriate for a tooltip. On a link, this could be the title or a description of the target resource; on an image, it could be the image credit or a description of the image; on a paragraph, it could be a footnote or commentary on the text; on a citation, it could be further information about the source; on interactive content, it could be a label for, or instructions for, use of the element; and so forth. The value is text."@en ;
     skos:prefLabel "has title attribute"@en ;
     html:key "title" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has title attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has title attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:translate a owl:DatatypeProperty ;
@@ -1331,7 +1331,7 @@ html:translate a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has translate attribute"@en ;
     html:key "translate" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has translate attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has translate attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:type a owl:DatatypeProperty ;
@@ -1340,14 +1340,14 @@ html:type a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "type"@en ;
     html:key "type" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Input -- type --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Input -- type --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:width a owl:DatatypeProperty ;
     rdfs:domain [ a owl:Class ;
             owl:unionOf ( html:Canvas html:Embed html:Iframe html:Img html:Input html:Object html:Video ) ;
-            mermaid:label """subgraph n94303b116d4846bda408ecfc838f0552b24[Union C &cup; D]
-n94303b116d4846bda408ecfc838f0552b24https://data.rijksfinancien.nl/html/model/def/Canvas((the canvas element)) -- or --- n94303b116d4846bda408ecfc838f0552b24https://data.rijksfinancien.nl/html/model/def/Embed((the embed element)) -- or --- n94303b116d4846bda408ecfc838f0552b24https://data.rijksfinancien.nl/html/model/def/Iframe((the iframe element)) -- or --- n94303b116d4846bda408ecfc838f0552b24https://data.rijksfinancien.nl/html/model/def/Img((the img element)) -- or --- n94303b116d4846bda408ecfc838f0552b24https://data.rijksfinancien.nl/html/model/def/Input((the input element)) -- or --- n94303b116d4846bda408ecfc838f0552b24https://data.rijksfinancien.nl/html/model/def/Object((the object element)) -- or --- n94303b116d4846bda408ecfc838f0552b24https://data.rijksfinancien.nl/html/model/def/Video((the video element))
+            mermaid:label """subgraph n0e5e9f7093d94041aed09561b0d5242eb24[Union C &cup; D]
+n0e5e9f7093d94041aed09561b0d5242eb24https://data.rijksfinancien.nl/html/model/def/Canvas((the canvas element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb24https://data.rijksfinancien.nl/html/model/def/Embed((the embed element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb24https://data.rijksfinancien.nl/html/model/def/Iframe((the iframe element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb24https://data.rijksfinancien.nl/html/model/def/Img((the img element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb24https://data.rijksfinancien.nl/html/model/def/Input((the input element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb24https://data.rijksfinancien.nl/html/model/def/Object((the object element)) -- or --- n0e5e9f7093d94041aed09561b0d5242eb24https://data.rijksfinancien.nl/html/model/def/Video((the video element))
 end
 """ ;
             mermaid:syntax "OR" ] ;
@@ -1355,7 +1355,7 @@ end
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has width"@en ;
     html:key "width" ;
-    mermaid:label "n94303b116d4846bda408ecfc838f0552b24 -- has width --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "n0e5e9f7093d94041aed09561b0d5242eb24 -- has width --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 shp:Base a sh:NodeShape ;
@@ -2139,16 +2139,16 @@ html:colspan a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has colspan"@en ;
     html:key "colspan" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Cell -- has colspan --> http://www.w3.org/2001/XMLSchema#nonNegativeInteger:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Cell -- has colspan --> http://www.w3.org/2001/XMLSchema#nonNegativeInteger:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:documentRestriction a owl:Restriction ;
     owl:hasValue documentType:html ;
     owl:onProperty dom:documentType ;
     skos:prefLabel "html document type restriction"@en ;
-    mermaid:label """https://data.rijksfinancien.nl/html/model/def/documentRestriction((html document type restriction)) -- equivalentTo --> https://data.rijksfinancien.nl/html/model/def/documentRestriction0f3613428eb4acdc91dba5ee855d2ab8412bba03962bf3a8316447fbe46edb68
-subgraph https://data.rijksfinancien.nl/html/model/def/documentRestriction0f3613428eb4acdc91dba5ee855d2ab8412bba03962bf3a8316447fbe46edb68[Restriction &exist; R x]
-https://data.rijksfinancien.nl/dom/model/def/documentType[documentType] -- value --> https://data.rijksfinancien.nl/html/model/def/documentRestrictionhttps://data.rijksfinancien.nl/dom/model/id/documentType/html((html))
+    mermaid:label """https://data.rijksfinancien.nl/html/model/def/documentRestriction((html document type restriction)) -- equivalentTo --> https://data.rijksfinancien.nl/html/model/def/documentRestrictione88a83f7aa9ab2aee8d5ece5326f69e9cc7d224043b6af42bea60ecc584c9798
+subgraph https://data.rijksfinancien.nl/html/model/def/documentRestrictione88a83f7aa9ab2aee8d5ece5326f69e9cc7d224043b6af42bea60ecc584c9798[Restriction &exist; R x]
+https://data.rijksfinancien.nl/html/model/def/documentRestrictionhttps://data.rijksfinancien.nl/dom/model/def/documentType[documentType] -- value --> https://data.rijksfinancien.nl/html/model/def/documentRestrictionhttps://data.rijksfinancien.nl/dom/model/id/documentType/html((html))
 
 end
 """ ;
@@ -2159,7 +2159,7 @@ html:fragment a owl:DatatypeProperty ;
     rdfs:range rdf:HTML ;
     skos:definition "Property that links the html fragment that is represented by an element within a HTML-document to that element."@en ;
     skos:prefLabel "has fragment"@en ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has fragment --> http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has fragment --> http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:rowspan a owl:DatatypeProperty ;
@@ -2168,7 +2168,7 @@ html:rowspan a owl:DatatypeProperty ;
     rdfs:subPropertyOf html:attribute ;
     skos:prefLabel "has rowspan"@en ;
     html:key "rowspan" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Cell -- has rowspan --> http://www.w3.org/2001/XMLSchema#nonNegativeInteger:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Cell -- has rowspan --> http://www.w3.org/2001/XMLSchema#nonNegativeInteger:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 html:style a owl:DatatypeProperty ;
@@ -2178,7 +2178,7 @@ html:style a owl:DatatypeProperty ;
     skos:definition "Property that permits the author to directly apply style information to a specific html element. All HTML elements may have the style content attribute set. This is a style attribute as defined by CSS Style Attributes."@en ;
     skos:prefLabel "has style attribute"@en ;
     html:key "style" ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has style attribute --> http://www.w3.org/2001/XMLSchema#string:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has style attribute --> http://www.w3.org/2001/XMLSchema#string:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 rule:Document a sh:SPARQLRule ;
@@ -2733,7 +2733,7 @@ html:attribute a owl:DatatypeProperty ;
     rdfs:range rdfs:Literal ;
     skos:definition "Property that is the parent property of all existing HTML attributes. An attribute is a name-value pair that is associated with an HTML element. Attributes provide additional information about an element and are specified within the start tag of an element. Attributes can modify the behavior or appearance of an element, define relationships between elements, or provide other metadata. The name of the attribute is followed by an equal sign (=) and the attribute's value, which is enclosed in double or single quotes. Some attributes affect the element simply by their presence in the start tag of the element, with the value implicitly being an empty string."@en ;
     skos:prefLabel "has attribute"@en ;
-    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has attribute --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+    mermaid:label "https://data.rijksfinancien.nl/html/model/def/Element -- has attribute --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY" .
 
 standard:html a dct:Standard ;

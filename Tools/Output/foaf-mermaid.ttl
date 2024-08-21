@@ -198,7 +198,7 @@ foaf:accountName a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/OnlineAccount -- accountName --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/OnlineAccount -- accountName --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/OnlineAccount -- accountName --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -224,7 +224,7 @@ foaf:age a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "unstable" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- age --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- age --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- age --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -239,7 +239,7 @@ foaf:aimChatID a rdf:Property,
     rdfs:subPropertyOf foaf:nick ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- aimChatID --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- aimChatID --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- aimChatID --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -265,7 +265,7 @@ foaf:birthday a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "unstable" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- birthday --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- birthday --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- birthday --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -301,7 +301,7 @@ foaf:familyName a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- familyName --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Person -- familyName --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- familyName --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -314,7 +314,7 @@ foaf:family_name a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "archaic" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- family_name --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Person -- family_name --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- family_name --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -327,7 +327,7 @@ foaf:firstName a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- firstName --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Person -- firstName --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- firstName --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -364,7 +364,7 @@ foaf:geekcode a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "archaic" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- geekcode --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Person -- geekcode --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- geekcode --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -378,7 +378,7 @@ foaf:gender a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- gender --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- gender --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- gender --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -440,7 +440,7 @@ foaf:icqChatID a rdf:Property,
     rdfs:subPropertyOf foaf:nick ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- icqChatID --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- icqChatID --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- icqChatID --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -479,7 +479,7 @@ foaf:jabberID a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- jabberID --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- jabberID --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- jabberID --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -504,7 +504,7 @@ foaf:lastName a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- lastName --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Person -- lastName --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- lastName --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -544,7 +544,7 @@ foaf:mbox_sha1sum a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- mbox_sha1sum --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- mbox_sha1sum --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- mbox_sha1sum --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -580,7 +580,7 @@ foaf:msnChatID a rdf:Property,
     rdfs:subPropertyOf foaf:nick ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- msnChatID --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- msnChatID --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- msnChatID --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -593,7 +593,7 @@ foaf:myersBriggs a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- myersBriggs --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Person -- myersBriggs --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- myersBriggs --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -607,7 +607,7 @@ foaf:name a rdf:Property,
     rdfs:subPropertyOf rdfs:label ;
     ns0:term_status "testing" ;
     mermaid:label "http://www.w3.org/2002/07/owl#Thing -- name --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://www.w3.org/2002/07/owl#Thing -- name --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://www.w3.org/2002/07/owl#Thing -- name --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -656,7 +656,7 @@ foaf:plan a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- plan --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Person -- plan --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- plan --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -705,7 +705,7 @@ foaf:skypeID a rdf:Property,
     rdfs:subPropertyOf foaf:nick ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- skypeID --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- skypeID --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- skypeID --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -718,7 +718,7 @@ foaf:status a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "unstable" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- status --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- status --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- status --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -731,7 +731,7 @@ foaf:surname a rdf:Property,
     rdfs:range rdfs:Literal ;
     ns0:term_status "archaic" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Person -- surname --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Person -- surname --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Person -- surname --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 
@@ -843,7 +843,7 @@ foaf:yahooChatID a rdf:Property,
     rdfs:subPropertyOf foaf:nick ;
     ns0:term_status "testing" ;
     mermaid:label "http://xmlns.com/foaf/0.1/Agent -- yahooChatID --> http://www.w3.org/2000/01/rdf-schema#Literal",
-        "http://xmlns.com/foaf/0.1/Agent -- yahooChatID --> http://www.w3.org/2000/01/rdf-schema#Literal:::DatatypeProperty" ;
+        "http://xmlns.com/foaf/0.1/Agent -- yahooChatID --> http://www.w3.org/2000/01/rdf-schema#Literal:::Datatype" ;
     mermaid:syntax "DATATYPEPROPERTY",
         "RDF_PROPERTY" .
 

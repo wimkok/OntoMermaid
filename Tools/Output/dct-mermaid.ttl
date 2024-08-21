@@ -212,7 +212,9 @@ dcterms:Box a rdfs:Datatype ;
     dcterms:issued "2000-07-11"^^xsd:date ;
     rdfs:comment "The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <https://www.dublincore.org/specifications/dublin-core/dcmi-box/> .
+    rdfs:seeAlso <https://www.dublincore.org/specifications/dublin-core/dcmi-box/> ;
+    mermaid:label "http://purl.org/dc/terms/Box[DCMI Box]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:DCMIType a dcam:VocabularyEncodingScheme ;
     rdfs:label "DCMI Type Vocabulary"@en ;
@@ -240,21 +242,27 @@ dcterms:ISO3166 a rdfs:Datatype ;
     dcterms:issued "2000-07-11"^^xsd:date ;
     rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <https://www.iso.org/obp/ui/#search> .
+    rdfs:seeAlso <https://www.iso.org/obp/ui/#search> ;
+    mermaid:label "http://purl.org/dc/terms/ISO3166[ISO 3166]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:ISO639-2 a rdfs:Datatype ;
     rdfs:label "ISO 639-2"@en ;
     dcterms:issued "2000-07-11"^^xsd:date ;
     rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.html> .
+    rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.html> ;
+    mermaid:label "http://purl.org/dc/terms/ISO639-2[ISO 639-2]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:ISO639-3 a rdfs:Datatype ;
     rdfs:label "ISO 639-3"@en ;
     dcterms:issued "2008-01-14"^^xsd:date ;
     rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <http://www.sil.org/iso639-3/> .
+    rdfs:seeAlso <http://www.sil.org/iso639-3/> ;
+    mermaid:label "http://purl.org/dc/terms/ISO639-3[ISO 639-3]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:LCC a dcam:VocabularyEncodingScheme ;
     rdfs:label "LCC"@en ;
@@ -288,14 +296,18 @@ dcterms:Point a rdfs:Datatype ;
     dcterms:issued "2000-07-11"^^xsd:date ;
     rdfs:comment "The set of points in space defined by their geographic coordinates according to the DCMI Point Encoding Scheme."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <https://www.dublincore.org/specifications/dublin-core/dcmi-point/> .
+    rdfs:seeAlso <https://www.dublincore.org/specifications/dublin-core/dcmi-point/> ;
+    mermaid:label "http://purl.org/dc/terms/Point[DCMI Point]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:RFC1766 a rdfs:Datatype ;
     rdfs:label "RFC 1766"@en ;
     dcterms:issued "2000-07-11"^^xsd:date ;
     rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> .
+    rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> ;
+    mermaid:label "http://purl.org/dc/terms/RFC1766[RFC 1766]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:RFC3066 a rdfs:Datatype ;
     rdfs:label "RFC 3066"@en ;
@@ -303,7 +315,9 @@ dcterms:RFC3066 a rdfs:Datatype ;
     dcterms:issued "2002-07-13"^^xsd:date ;
     rdfs:comment "The set of tags constructed according to RFC 3066 for the identification of languages."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <http://www.ietf.org/rfc/rfc3066.txt> .
+    rdfs:seeAlso <http://www.ietf.org/rfc/rfc3066.txt> ;
+    mermaid:label "http://purl.org/dc/terms/RFC3066[RFC 3066]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:RFC4646 a rdfs:Datatype ;
     rdfs:label "RFC 4646"@en ;
@@ -311,7 +325,9 @@ dcterms:RFC4646 a rdfs:Datatype ;
     dcterms:issued "2008-01-14"^^xsd:date ;
     rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> .
+    rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> ;
+    mermaid:label "http://purl.org/dc/terms/RFC4646[RFC 4646]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:RFC5646 a rdfs:Datatype ;
     rdfs:label "RFC 5646"@en ;
@@ -319,7 +335,9 @@ dcterms:RFC5646 a rdfs:Datatype ;
     dcterms:issued "2010-10-11"^^xsd:date ;
     rdfs:comment "The set of tags constructed according to RFC 5646 for the identification of languages."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <http://www.ietf.org/rfc/rfc5646.txt> .
+    rdfs:seeAlso <http://www.ietf.org/rfc/rfc5646.txt> ;
+    mermaid:label "http://purl.org/dc/terms/RFC5646[RFC 5646]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:TGN a dcam:VocabularyEncodingScheme ;
     rdfs:label "TGN"@en ;
@@ -340,14 +358,18 @@ dcterms:URI a rdfs:Datatype ;
     dcterms:issued "2000-07-11"^^xsd:date ;
     rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <http://www.ietf.org/rfc/rfc3986.txt> .
+    rdfs:seeAlso <http://www.ietf.org/rfc/rfc3986.txt> ;
+    mermaid:label "http://purl.org/dc/terms/URI[URI]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:W3CDTF a rdfs:Datatype ;
     rdfs:label "W3C-DTF"@en ;
     dcterms:issued "2000-07-11"^^xsd:date ;
     rdfs:comment "The set of dates and times constructed according to the W3C Date and Time Formats Specification."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <http://www.w3.org/TR/NOTE-datetime> .
+    rdfs:seeAlso <http://www.w3.org/TR/NOTE-datetime> ;
+    mermaid:label "http://purl.org/dc/terms/W3CDTF[W3C-DTF]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:abstract a rdf:Property ;
     rdfs:label "Abstract"@en ;
@@ -856,7 +878,9 @@ dcterms:Period a rdfs:Datatype ;
     dcterms:issued "2000-07-11"^^xsd:date ;
     rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
     rdfs:isDefinedBy dcterms: ;
-    rdfs:seeAlso <https://www.dublincore.org/specifications/dublin-core/dcmi-period/> .
+    rdfs:seeAlso <https://www.dublincore.org/specifications/dublin-core/dcmi-period/> ;
+    mermaid:label "http://purl.org/dc/terms/Period[DCMI Period]:::Datatype" ;
+    mermaid:syntax "DATATYPE" .
 
 dcterms:contributor a rdf:Property ;
     rdfs:label "Contributor"@en ;
